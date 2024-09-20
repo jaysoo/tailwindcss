@@ -21,6 +21,7 @@
       "cache": true
     },
     "postbuild": {
+      "dependsOn": ["build"],
       "cache": true
     }
   },
